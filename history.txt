@@ -1,0 +1,16 @@
+  323  pip freeze > requirements.txt
+  324  python app.py
+  325  pip install dotenv
+  326  pip freeze > requirements.txt
+  327  pip install python-dotenv
+  328  pip freeze > requirements.txt
+  329  pip install flask_sqlalchemy
+  330  pip install psycopg2
+  331  pip install psycopg2
+  332  python app.py
+  333  pip install psycopg2-binary
+  334  python app.py
+  335  python app.py
+  336  Get-History | Out-File 20240411-comandos.text
+  337  Get-History | Out-File 2024041 1-comandos.text
+  338  Get-History | Out-File 20240411-comandos.text
