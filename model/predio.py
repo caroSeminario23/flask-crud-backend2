@@ -1,6 +1,7 @@
 from utils.db import db # Importamos la instancia de la clase SQLAlchemy
 from dataclasses import dataclass 
 
+# EN RESTAURACION
 @dataclass # Indica que la clase debe ser tratada con esa librería
 class Predio(db.Model):
     # Vincula la clase Predio con la tabla predio de la base de datos, para lograr la persistencia
