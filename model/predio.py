@@ -5,7 +5,6 @@ from dataclasses import dataclass
 @dataclass # Indica que la clase debe ser tratada con esa librería
 class Predio(db.Model):
     # Vincula la clase Predio con la tabla predio de la base de datos, para lograr la persistencia
-
     id_predio: int
     id_tipo_predio: int
     description: str
