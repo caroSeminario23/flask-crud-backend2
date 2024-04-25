@@ -91,11 +91,11 @@ def update():
 
     result['data']=predio # Se obtiene el id del contacto
 
-    @predios.route('/predios/v1/delete', methods =['DELETE']) # Se define el tipo de petición que puede atender la app
-    def delete():
-        result = {}
-        body=request.get_json() # Se obtiene el contenido de la petición
-        id=body.get('id_predio') # Se obtiene el valor de la clave id (se captura) 
+@predios.route('/predios/v1/delete', methods =['DELETE']) # Se define el tipo de petición que puede atender la app
+def delete():
+    result = {}
+    body=request.get_json() # Se obtiene el contenido de la petición
+    id=body.get('id_predio') # Se obtiene el valor de la clave id (se captura) 
 
     if not id: # Si no se obtiene el id del contacto
         result["status_code"]=400
