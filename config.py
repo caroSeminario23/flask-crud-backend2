@@ -10,4 +10,4 @@ host = os.environ['HOST']
 database = os.environ['DATABASE']
 server = os.environ['SERVER']
 
-DATABASE_CONNECTION = 'postgresql://postgres:Venom74@localhost/Venesa_1'
+DATABASE_CONNECTION = f'{server}://{user}:{pwd}@{host}/{database}'
